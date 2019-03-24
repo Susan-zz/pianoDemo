@@ -63,6 +63,7 @@
   border: black 1.5px solid;
   border-radius: 0 0 0.7rem 0.7rem;
   position: relative;
+  transition:all .10s;
 }
 
 kbd{
@@ -79,5 +80,10 @@ kbd{
   border-radius: 0 0 0.7rem 0.7rem;
   position: absolute;
   left: 56.5%;
-  z-index: 2;
+  z-index: 5;
+}
+.playing{
+  transform: scale(1.05);
+  border-color: black;
+  box-shadow: 0 0 50px #6C6C6C;
 }
