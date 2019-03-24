@@ -49,8 +49,26 @@
     color:#ffc600;
   }
    */
-body{
-  background: url('img/background1.jpg') no-repeat center center;
-  overflow: hidden;
-  background-size: 100%;
+.pianoKeys{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.key{
+  width: 50px;
+  height: 500px;
+  background-color: white;
+  border: black 1.5px solid;
+  border-radius: 0 0 0.5rem 0.5rem;
+  position: relative;
+}
+
+kbd{
+  font-size: 1.5rem;
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  transform: translate(-50%);
 }
